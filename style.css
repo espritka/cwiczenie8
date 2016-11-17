@@ -1,0 +1,97 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav p {
+  cursor: pointer;
+  margin: 25px 20px 15px;
+  min-width: 60px;
+  padding: 5px;
+}
+
+.pill-white {
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.pill-black {
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: url("img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron h2 {
+  background-color: white;
+  border-radius: 5px;
+  display: inline-block;
+  color:#F06529;
+  font-weight: bold;
+  padding: 10px 35px;
+}
+
+.jumbotron h3 {
+  color: white;
+  font-weight: 700;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  background-color: white;
+  color: #2e6da4;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul li img {
+  height: 32px;
+  width: 32px;
+}
